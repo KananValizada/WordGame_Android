@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Söz oyunu</string>
+
+    <string name="image_contentDescription">image</string>
+    <string name="let_s_get_started_text">Gəlin başlayaq</string>
+    <string name="intro_text_description">Dostların və yaxınlarınla mübarizəyə qoşul</string>
+    <string name="sign_in">DAXİL OL</string>
+    <string name="sign_up">QEYDİYYAT</string>
+</resources>
