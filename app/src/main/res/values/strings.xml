@@ -6,4 +6,9 @@
     <string name="intro_text_description">Dostların və yaxınlarınla mübarizəyə qoşul</string>
     <string name="sign_in">DAXİL OL</string>
     <string name="sign_up">QEYDİYYAT</string>
+
+    <string name="sign_up_description_text">Adınızı, e-poçt və şifrənizi daxil edin.</string>
+    <string name="name">Ad</string>
+    <string name="password">Password</string>
+    <string name="email">E-poçt</string>
 </resources>
