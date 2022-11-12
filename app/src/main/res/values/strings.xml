@@ -9,6 +9,11 @@
 
     <string name="sign_up_description_text">Adınızı, e-poçt və şifrənizi daxil edin.</string>
     <string name="name">Ad</string>
-    <string name="password">Password</string>
+    <string name="password">Şifrə</string>
     <string name="email">E-poçt</string>
+    <string name="sing_in_description_text">E-poçt və şifrənizi daxil edin.</string>
+
+    <string name="please_click_back_again_to_exit">Çıxış üçün yenidən geriyə klikləyin.</string>
+    <string name="please_wait">Z.O Gözləyin&#8230;</string>
+    <string name="please_click_back_again">Çıxış üçün geri düyməsini bir də klikləyin</string>
 </resources>

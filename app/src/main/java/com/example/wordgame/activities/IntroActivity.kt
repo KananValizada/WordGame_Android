@@ -1,4 +1,4 @@
-package com.example.wordgame
+package com.example.wordgame.activities
 
 import android.content.Intent
 import android.os.Build
@@ -8,7 +8,7 @@ import android.view.WindowInsets
 import android.view.WindowManager
 import com.example.wordgame.databinding.ActivityIntroBinding
 
-class IntroActivity : AppCompatActivity() {
+class IntroActivity : BaseActivity() {
     private lateinit var binding:ActivityIntroBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,7 +26,11 @@ class IntroActivity : AppCompatActivity() {
         }
 
         binding.btnSignUpIntro.setOnClickListener {
-            startActivity(Intent(this,SignUpActivity::class.java))
+            startActivity(Intent(this, SignUpActivity::class.java))
+        }
+
+        binding.btnSignInIntro.setOnClickListener {
+            startActivity(Intent(this, SingInActivity::class.java))
         }
 
 

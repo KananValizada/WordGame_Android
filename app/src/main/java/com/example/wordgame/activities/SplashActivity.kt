@@ -1,4 +1,4 @@
-package com.example.wordgame
+package com.example.wordgame.activities
 
 import android.content.Intent
 import android.graphics.Typeface
@@ -32,7 +32,7 @@ class SplashActivity : AppCompatActivity() {
         binding.splashAppName.typeface = typeFace
 
         Handler(Looper.getMainLooper()).postDelayed({
-            startActivity(Intent(this,IntroActivity::class.java))
+            startActivity(Intent(this, IntroActivity::class.java))
             finish()
         },2500)
     }
